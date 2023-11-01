@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"duration": 10, "cpu_load": 90, "memory_load": 80, "vram_load": 70, "cores": 6}' http://127.0.0.1:5000/load
